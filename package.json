@@ -1,6 +1,6 @@
 {
-  "name": "ffprobe-static",
-  "version": "3.1.0",
+  "name": "@w6s/ffprobe-static",
+  "version": "3.1.1",
   "description": "Static binaries for ffprobe.",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshwnj/ffprobe-static.git"
+    "url": "git+https://github.com/WorkPlusFE/ffprobe-static.git"
   },
   "keywords": [
     "ffprobe",
     "ffmpeg"
   ],
   "author": "joshwnj",
-  "license": "MIT",
+  "license": "SEE LICENSE IN THIRD_PARTY_NOTICES.md",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "tape": "^4.0.1"
   }
